@@ -4,7 +4,7 @@ def generuj_postac():
     postac = {
         "imie": random.choice(["Legolas", "Aragorn", "Gandalf", "Frodo"]),
         "rasa": random.choice(["Człowiek", "Czarodziej", "Elf", "Hobbit"]),
- # TU WPISZ STATYSTYKI 
+	"sila":random.randint(10,20),"zrecznosc":random.randint5,15)
 }
     
     print("TWOJA POSTAĆ RPG")
