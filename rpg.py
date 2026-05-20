@@ -11,3 +11,6 @@ def generuj_postac():
     print("TWOJA POSTAĆ RPG")
     for klucz, wartosc in postac.items():
         print(f"{klucz.capitalize()}: {wartosc}")
+
+if __name__ == "__main__":
+    generuj_postac()
